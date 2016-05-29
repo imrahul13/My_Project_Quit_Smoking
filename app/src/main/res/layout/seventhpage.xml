@@ -5,80 +5,68 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
+        android:background="#F9966B"
         android:paddingLeft="8dp"
         android:text="Make non smoking friends"
-        android:background="#F9966B"
-        android:textSize="28dp"
-        android:id="@+id/textView3" />
-
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_above="@+id/linearLayout3">
+        android:textSize="28dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_below="@id/textView3"
+            android:background="#FFFFCC"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="18dp"
-                android:textSize="20dp" />
+                android:paddingLeft="8dp"
+                android:paddingTop="10dp"
+                android:text="*  I would rather walk with a friend in the dark, than alone in the light."
+                android:textSize="21dp" />
 
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="472dp"
-                android:background="#FFFFCC"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="*  A Good Friend Improves Your Self-Confidence And Self-Esteem."
+                android:textSize="21dp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21dp"
-                    android:text="*  I would rather walk with a friend in the dark, than alone in the light." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  You don’t need to rely on willpower alone to be smokefree."
+                android:textSize="21dp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="*  A Good Friend Improves Your Self-Confidence And Self-Esteem."
-                    android:textSize="21dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  When you're at a party, stick with the non-smokers. When you look at the smokers, don't envy them"
+                android:textSize="21dp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="*  You don’t need to rely on willpower alone to be smokefree."
-                    android:textSize="21dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="*  When you're at a party, stick with the non-smokers. When you look at the smokers, don't envy them"
-                    android:textSize="21dp" />
-            </LinearLayout>
         </LinearLayout>
-    </ScrollView>
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:id="@+id/linearLayout3">
+        android:orientation="horizontal">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
             android:background="#F75D59"
-            android:paddingLeft="5dp"
             android:onClick="quit4"
             android:text="Previous Page" />
 
@@ -86,9 +74,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
-            android:paddingRight="5dp"
-            android:layout_marginBottom="8dp"
             android:background="#F75D59"
             android:onClick="quit7"
             android:text="Next Page" />

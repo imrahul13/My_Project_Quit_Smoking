@@ -5,89 +5,77 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/three"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
+        android:background="#F9966B"
         android:paddingLeft="8dp"
         android:text="Avoid smoking triggers"
-        android:background="#F9966B"
         android:textSize="28dp" />
 
-
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@id/three"
+        android:background="#FFFFCC"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="8dp"
+            android:text="*  Triggers are the people, places, things, and situations that set off your urge to smoke."
+            android:textSize="21sp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="8dp"
+            android:text="*  Identify the things that make you want to smoke, including specific situations, activities, feelings, and people.It gives you a better idea of when and why you smoke."
+            android:textSize="21sp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="515dp"
-                android:orientation="vertical"
-                android:background="#FFFFCC">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="8dp"
+            android:text="*  Write down your triggers and how you can manage each situation."
+            android:textSize="21sp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
-                    android:text="*  Triggers are the people, places, things, and situations that set off your urge to smoke."
-                    android:textSize="21sp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
-                    android:layout_marginTop="10dp"
-                    android:text="*  Identify the things that make you want to smoke, including specific situations, activities, feelings, and people.It gives you a better idea of when and why you smoke."
-                    android:textSize="21sp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
-                    android:layout_marginTop="10dp"
-                    android:text="*  Write down your triggers and how you can manage each situation."
-                    android:textSize="21sp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
-                    android:layout_marginTop="10dp"
-                    android:text="* Tips for avoiding common smoking triggers"
-                    android:textSize="21sp" />
-            </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="8dp"
+            android:text="* Tips for avoiding common smoking triggers"
+            android:textSize="21sp" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
             android:background="#F75D59"
-            android:paddingLeft="5dp"
             android:onClick="quit2"
+            android:paddingLeft="5dp"
             android:text="Previous Page" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
-            android:layout_marginBottom="8dp"
             android:background="#F75D59"
             android:onClick="quit4"
             android:paddingRight="5dp"

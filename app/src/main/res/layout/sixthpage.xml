@@ -5,129 +5,131 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/four"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:text="Stay busy"
-        android:paddingLeft="8dp"
+        android:layout_height="wrap_content"
         android:background="#F9966B"
-        android:textSize="28dp"
-        android:id="@+id/textView" />
+        android:paddingLeft="8dp"
+        android:text="Stay busy"
+        android:textSize="28dp" />
 
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/linearLayout"
-        android:fillViewport="false"
-        android:layout_below="@+id/textView">
+        android:layout_below="@+id/four">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#FFFFCC"
+            android:layout_below="@+id/four"
             android:orientation="vertical">
 
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:background="#FFFFCC">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  Keeping busy is a great way to stay smokefree on your quit day"
+                android:textSize="21sp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21sp"
-                    android:layout_marginTop="10dp"
-                    android:text="*  Keeping busy is a great way to stay smokefree on your quit day" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  Being busy will help you keep your mind off smoking and distract you from cravings. Think about trying some of these activities:"
+                android:textSize="21sp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21sp"
-                    android:layout_marginTop="10dp"
-                    android:text="*  Being busy will help you keep your mind off smoking and distract you from cravings. Think about trying some of these activities:" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  Think about trying some of these activities:"
+                android:textSize="21sp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21sp"
-                    android:layout_marginTop="10dp"
-                    android:text="*  Think about trying some of these activities:" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:text="~  Get out of the house for a walk."
+                android:textSize="21sp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21sp"
-                    android:layout_marginTop="10dp"
-                    android:paddingLeft="15dp"
-                    android:text="~  Get out of the house for a walk." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="~  Keep your hands busy with a pen or toothpick, or play a game in the QuitGuide app."
+                android:textSize="21sp" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21sp"
-                    android:paddingLeft="15dp"
-                    android:text="~  Keep your hands busy with a pen or toothpick, or play a game in the QuitGuide app." />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21sp"
-                    android:paddingLeft="15dp"
-                    android:text="~  Drink lots of water." />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21sp"
-                    android:paddingLeft="15dp"
-                    android:text="~  Relax with deep breathing." />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21sp"
-                    android:paddingLeft="15dp"
-                    android:text="~  Relax with deep breathing." />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21sp"
-                    android:paddingLeft="15dp"
-                    android:text="~  Spend time with non-smoking friends and family." />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="21sp"
-                    android:paddingLeft="15dp"
-                    android:text="~  Go to dinner at your favorite smokefree restaurant." />
-            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="~  Drink lots of water."
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="~  Relax with deep breathing."
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="~  Relax with deep breathing."
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="~  Spend time with non-smoking friends and family."
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="~  Go to dinner at your favorite smokefree restaurant."
+                android:textSize="21sp" />
         </LinearLayout>
     </ScrollView>
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:id="@+id/linearLayout">
+        android:orientation="horizontal">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
             android:background="#F75D59"
-            android:paddingLeft="5dp"
             android:onClick="quit3"
+            android:paddingLeft="5dp"
             android:text="Previous Page" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
-            android:paddingRight="5dp"
-            android:layout_marginBottom="8dp"
             android:background="#F75D59"
             android:onClick="quit5"
+            android:paddingRight="5dp"
             android:text="Next Page" />
     </LinearLayout>
 </RelativeLayout>

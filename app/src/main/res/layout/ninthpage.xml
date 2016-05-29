@@ -5,84 +5,105 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/nine"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:text="Helpline Numbers"
-        android:paddingLeft="8dp"
+        android:layout_height="wrap_content"
         android:background="#F9966B"
-        android:textSize="28dp"
-        android:id="@+id/textView" />
+        android:paddingLeft="8dp"
+        android:text="Helpline Numbers"
+        android:textSize="28dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/nine"
+        android:layout_above="@+id/linearLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFCC"
+            android:layout_below="@id/nine"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  If you've tried quitting on your own and are still struggling, think about getting professional help"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  Here are some of the helpline numbers which allows you to talk to a counselor over the telephone who can give you advice on ways to quit and support you while you are preparing to quit or trying to stay quit."
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  SmokeFree.gov--(800)784-8669"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  National Cancer Institute--(877)448-7848"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  Nicotine Anonymous--(877)879-6422"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:text="*  American Cancer Society--(800)227-2345"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+    </ScrollView>
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFCC"
-        android:layout_marginTop="40dp"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="21sp"
-            android:text="*  If you've tried quitting on your own and are still struggling, think about getting professional help"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="21sp"
-            android:layout_marginTop="8dp"
-            android:text="*  Here are some of the helpline numbers which allows you to talk to a counselor over the telephone who can give you advice on ways to quit and support you while you are preparing to quit or trying to stay quit."/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="21sp"
-            android:layout_marginTop="8dp"
-            android:text="*  SmokeFree.gov--(800)784-8669"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="21sp"
-            android:layout_marginTop="8dp"
-            android:text="*  National Cancer Institute--(877)448-7848"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="21sp"
-            android:layout_marginTop="8dp"
-            android:text="*  Nicotine Anonymous--(877)879-6422"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="21sp"
-            android:layout_marginTop="8dp"
-            android:text="*  American Cancer Society--(800)227-2345"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:id="@+id/linearLayout">
+        android:orientation="horizontal">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
             android:background="#F75D59"
-            android:paddingLeft="5dp"
             android:onClick="quit5"
+            android:paddingLeft="5dp"
             android:text="Previous Page" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
-            android:paddingRight="5dp"
-            android:layout_marginBottom="8dp"
             android:background="#F75D59"
             android:onClick="quit6"
+            android:paddingRight="5dp"
             android:text="Next Page" />
     </LinearLayout>
 </RelativeLayout>
