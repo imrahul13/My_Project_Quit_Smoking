@@ -8,13 +8,13 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/quit"
+        android:src="@drawable/health1"
         android:scaleType="centerCrop"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="home"
+        android:text="Home"
         android:textSize="25dp"
         android:onClick="quit0"
         android:background="#E9AB17"

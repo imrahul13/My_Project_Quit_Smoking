@@ -3,6 +3,8 @@ package com.example.pavilion.quitsmoking;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,6 +29,32 @@ public class MainActivity extends AppCompatActivity {
     public void quit7(View view){
         setContentView(R.layout.ninthpage);
     }
+    public void quit8(View view){
+        setContentView(R.layout.tenthpage);
+    }
 
+    public void select(View view) {
+        CheckBox yesbox = (CheckBox) findViewById(R.id.yesbox);
+        boolean hasyesChecked = yesbox.isChecked();
+        CheckBox nobox = (CheckBox) findViewById(R.id.nobox);
+        boolean hasnoChecked = nobox.isChecked();
+        if (hasyesChecked) {
+            displayyes();
+        }
+        if (hasnoChecked) {
+            displayno();
+        }
+    }
+    private void displayyes()
+    {
+        TextView quantityTextView=(TextView) findViewById(R.id.display);
+        quantityTextView.setText("Congratulations!! You are on the right path.All the best for your great future.\n");
+    }
+    private void displayno()
+    {
+        TextView quantityTextView=(TextView) findViewById(R.id.display);
+        quantityTextView.setText("Oops!! Its very heartbreaking to know that you haven't yet decided to quit smoking.");
+    }
 }
+
 
