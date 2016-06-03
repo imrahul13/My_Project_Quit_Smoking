@@ -29,8 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public void quit7(View view){
         setContentView(R.layout.ninthpage);
     }
-    public void quit8(View view){
-        setContentView(R.layout.tenthpage);
+    public void quit8(View view){setContentView(R.layout.tennthpage);
     }
 
     public void select(View view) {
