@@ -25,13 +25,14 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="8dp"
                 android:paddingTop="10dp"
-                android:text="*  I would rather walk with a friend in the dark, than alone in the light."
+                android:text="*  A very famous quote on friendship is:  'I would rather walk with a friend in the dark, than alone in the light.'"
                 android:textSize="21dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="8dp"
+                android:paddingTop="10dp"
                 android:text="*  A Good Friend Improves Your Self-Confidence And Self-Esteem."
                 android:textSize="21dp" />
 
